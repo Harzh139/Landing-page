@@ -172,9 +172,11 @@
     Use Tailwind border/text/bg classes for visible buttons on light backgrounds.
   */
   .button-premium-secondary {
-    /* Improved for visibility on all backgrounds */
-    @apply bg-yellow-400 text-gray-900 font-semibold py-4 px-8 rounded-xl border border-yellow-500 transition-all duration-500 hover:bg-yellow-300 hover:scale-105 hover:shadow-2xl;
-    box-shadow: 0 8px 32px rgba(255, 215, 0, 0.15);
+    /* Professional purple background, white text */
+    background-color: #5b21b6;
+    color: #ffffff;
+    @apply font-semibold py-4 px-8 rounded-xl border border-purple-800 transition-all duration-500 hover:bg-purple-700 hover:scale-105 hover:shadow-2xl;
+    box-shadow: 0 8px 32px rgba(91, 33, 182, 0.15);
   }
 
   /* Premium Cards */
