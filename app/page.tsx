@@ -70,10 +70,6 @@ export default function Home() {
               Watch Demo
             </button>
           </div>
-          
-          <div style={{background: 'yellow', color: 'black', padding: '8px', marginTop: '16px'}}>
-            DEBUG: If you see this, the section loads correctly
-          </div>
         </div>
       </section>
       
