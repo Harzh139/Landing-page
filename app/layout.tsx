@@ -18,7 +18,6 @@ export const metadata: Metadata = {
   description: 'Transform your marketing with AI-powered tools. Create stunning campaigns, analyze performance, and grow your brand with our comprehensive AI suite.',
   keywords: 'AI marketing, brand management, digital marketing, automation, analytics',
   authors: [{ name: 'ADmyBRAND AI Suite' }],
-  viewport: 'width=device-width, initial-scale=1',
   robots: 'index, follow',
   openGraph: {
     title: 'ADmyBRAND AI Suite - AI-Powered Marketing Tools',
@@ -31,6 +30,11 @@ export const metadata: Metadata = {
     title: 'ADmyBRAND AI Suite - AI-Powered Marketing Tools',
     description: 'Transform your marketing with AI-powered tools.',
   },
+}
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
 }
 
 export default function RootLayout({
